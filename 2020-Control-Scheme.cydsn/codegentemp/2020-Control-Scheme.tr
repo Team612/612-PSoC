@@ -1,0 +1,119 @@
+##################################################################### 
+                    Table of Contents
+===================================================================== 
+	1::Clock Frequency Summary
+	2::Clock Relationship Summary
+	3::Datasheet Report
+		3.1::Setup to Clock
+		3.2::Clock to Out
+		3.3::Pad to Pad
+	4::Path Details for Clock Frequency Summary
+	5::Path Details for Clock Relationship Summary
+===================================================================== 
+                    End of Table of Contents
+##################################################################### 
+
+##################################################################### 
+                    1::Clock Frequency Summary
+===================================================================== 
+Number of clocks: 6
+Clock: Clock         | N/A  | Target: 0.00 MHz   | 
+Clock: CyBUS_CLK     | N/A  | Target: 24.00 MHz  | 
+Clock: CyILO         | N/A  | Target: 0.10 MHz   | 
+Clock: CyIMO         | N/A  | Target: 24.00 MHz  | 
+Clock: CyMASTER_CLK  | N/A  | Target: 24.00 MHz  | 
+Clock: CyPLL_OUT     | N/A  | Target: 24.00 MHz  | 
+
+ =====================================================================
+                    End of Clock Frequency Summary
+ #####################################################################
+
+
+ #####################################################################
+                    2::Clock Relationship Summary
+ =====================================================================
+
+Launch Clock  Capture Clock  Constraint(R-R)  Slack(R-R)  Constraint(R-F)  Slack(R-F)  Constraint(F-F)  Slack(F-F)  Constraint(F-R)  Slack(F-R)  
+
+ =====================================================================
+                    End of Clock Relationship Summary
+ #####################################################################
+
+
+ #####################################################################
+                    3::Datasheet Report
+
+All values are in Picoseconds
+ =====================================================================
+
+3.1::Setup to Clock                     
+-------------------                     
+
+Port Name        Setup to Clk  Clock Name:Phase  
+---------------  ------------  ----------------  
+Pin_1_8(0)_PAD   16034         Clock:R           
+Pin_1_8(1)_PAD   15934         Clock:R           
+Pin_1_8(2)_PAD   15049         Clock:R           
+Pin_1_8(3)_PAD   16040         Clock:R           
+Pin_1_8(4)_PAD   15400         Clock:R           
+Pin_1_8(5)_PAD   16437         Clock:R           
+Pin_1_8(6)_PAD   15354         Clock:R           
+Pin_1_8(7)_PAD   15491         Clock:R           
+Pin_9_11(0)_PAD  19326         Clock:R           
+Pin_9_11(1)_PAD  18924         Clock:R           
+
+
+                       3.2::Clock to Out
+                       -----------------
+
+Port Name        Clock to Out  Clock Name:Phase  
+---------------  ------------  ----------------  
+LED_12_2(0)_PAD  24986         CyBUS_CLK:R       
+LED_12_3(0)_PAD  24440         CyBUS_CLK:R       
+LED_12_4(0)_PAD  26297         CyBUS_CLK:R       
+LED_12_5(0)_PAD  26105         CyBUS_CLK:R       
+LED_15_0(0)_PAD  23436         CyBUS_CLK:R       
+LED_15_1(0)_PAD  22761         CyBUS_CLK:R       
+LED_15_2(0)_PAD  23468         CyBUS_CLK:R       
+LED_15_3(0)_PAD  23652         CyBUS_CLK:R       
+LED_15_4(0)_PAD  25686         CyBUS_CLK:R       
+LED_15_5(0)_PAD  25627         CyBUS_CLK:R       
+
+
+                         3.3::Pad to Pad
+                         ---------------
+
+Port Name (Source)  Port Name (Destination)  Delay  
+------------------  -----------------------  -----  
+
+===================================================================== 
+                    End of Datasheet Report
+##################################################################### 
+##################################################################### 
+                    4::Path Details for Clock Frequency Summary
+
+===================================================================== 
+                    End of Path Details for Clock Frequency Summary
+##################################################################### 
+
+
+##################################################################### 
+                    5::Path Details for Clock Relationship Summary
+===================================================================== 
+
+
+===================================================================== 
+                    End of Path Details for Clock Relationship Summary
+##################################################################### 
+
+##################################################################### 
+                    Detailed Report for all timing paths 
+===================================================================== 
+===================================================================== 
+                    End of Detailed Report for all timing paths 
+##################################################################### 
+
+##################################################################### 
+                    End of Timing Report 
+##################################################################### 
+

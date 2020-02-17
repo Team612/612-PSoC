@@ -1,0 +1,6 @@
+C:\Users\Chantilly Robotics\Documents\2020_Control_Scheme\PSoC-2020\2020-Control-Scheme.cydsn\2020-Control-Scheme.cyprj|c32dee2a-acfd-4d6d-a80a-81f6742c774e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|f26a0568-5b77-4aa3-b641-45749d36858d
+C:\Users\Chantilly Robotics\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|aae03b1b-9ced-462f-9993-ec4e086ceea3
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|3d19bdea-d913-4945-8636-be87ceabae1f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|cc0b3bbf-d29b-4fc4-aba2-72c907ac570c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|74b5b581-d566-43d2-bdbd-ac726b41ee17

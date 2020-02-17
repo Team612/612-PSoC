@@ -1,0 +1,1454 @@
+Archive member included to satisfy reference by file (symbol)
+
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (USB_Start)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o) (USB_lastPacketSize)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o) (USB_EP_1_ISR)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o) (USB_hidProtocol)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o) (USB_DP_ISR)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o) (USB_ConfigReg)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o) (USB_HandleVendorRqst)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (Status_1_8_Read)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (Status_9_11_Read)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o) (USB_Dp_ClearInterrupt)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o (CyHalt)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o) (CyPmReadStatus)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (Internal_LED_Write)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (LEDs_1_8_Write)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+                              .\CortexM3\ARM_GCC_541\Debug\main.o (LEDs_9_10_Write)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+                              .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o (CyDelayCycles)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o) (USB_DispatchClassRqst)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o) (USB_TABLE)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o) (CyFlash_SetWaitCycles)
+.\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+                              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o) (CySpcStart)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+                              .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o (__errno)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+                              .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o (memcpy)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_hidProtocol     0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+USB_transferState   0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_interfaceNumber
+                    0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_lastPacketSize  0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_interfaceClass  0x4               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_interfaceSetting
+                    0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_ep0Mode         0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_device          0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_deviceAddress   0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_ep0Toggle       0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_hidIdleRate     0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+USB_interfaceSettingLast
+                    0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_configurationChanged
+                    0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_SCB
+                    0x4               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+USB_interfaceStatus
+                    0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_transferByteCount
+                    0x2               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_configuration   0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_currentTD       0xc               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_ep0Count        0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_deviceStatus    0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_BUF
+                    0x3               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+dieTemperature      0x2               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+USB_hidIdleTimer    0x1               .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+USB_EP              0x6c              .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .text          0x00000000       0x74 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.SetAnalogRoutingPumps
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .data          0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .text._exit    0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .text._sbrk    0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_Stop
+                0x00000000       0xb0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_CheckActivity
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_IsConfigurationChanged
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_GetInterfaceSetting
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_GetEPCount
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_ReadOutEP
+                0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_DisableOutEP
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_Force
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_SetPowerStatus
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_RWUEnabled
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_GetDeviceAddress
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_EnableSofInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text.USB_DisableSofInt
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .text.USB_UpdateHIDTimer
+                0x00000000       0x3c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .text.USB_GetProtocol
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .bss           0x00000000        0x2 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .text.USB_SaveConfig
+                0x00000000        0x4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .text.USB_RestoreConfig
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .text.USB_Suspend
+                0x00000000       0xc8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .text.USB_Resume
+                0x00000000       0xbc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .text.USB_EpStateInit
+                0x00000000       0x44 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .text.USB_TerminateEP
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .text.Status_1_8_InterruptEnable
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .text.Status_1_8_InterruptDisable
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .text.Status_1_8_WriteMask
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .text.Status_1_8_ReadMask
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .text.Status_9_11_InterruptEnable
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .text.Status_9_11_InterruptDisable
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .text.Status_9_11_WriteMask
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .text.Status_9_11_ReadMask
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .text.USB_Dp_Write
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .text.USB_Dp_SetDriveMode
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .text.USB_Dp_Read
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .text.USB_Dp_ReadDataReg
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .text.USB_Dp_SetInterruptMode
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .bss           0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyUSB_PowerOnCheck
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyBusClk_Internal_SetDivider
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyPLL_OUT_Stop
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIMO_Stop
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIMO_EnableDoubler
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIMO_DisableDoubler
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyMasterClk_SetSource
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyMasterClk_SetDivider
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyBusClk_SetDivider
+                0x00000000       0x70 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyUsbClk_SetSource
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_Start1K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_Stop1K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_Start100K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_Stop100K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyPLL_OUT_Start
+                0x00000000       0x78 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIMO_Start
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_Enable33K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_Disable33K
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_SetSource
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyILO_SetPowerMode
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_32KHZ_Stop
+                0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_32KHZ_ReadStatus
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_Start
+                0x00000000       0xac .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_Stop
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_EnableErrStatus
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_DisableErrStatus
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_ReadStatus
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_EnableFaultRecovery
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_DisableFaultRecovery
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_SetStartup
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_SetFbVoltage
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_SetWdVoltage
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyPLL_OUT_SetPQ
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyPLL_OUT_SetSource
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIMO_SetTrimValue
+                0x00000000       0xcc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIMO_SetFreq
+                0x00000000       0xf4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIMO_SetSource
+                0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySoftwareReset
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_32KHZ_SetPowerMode
+                0x00000000       0x84 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyXTAL_32KHZ_Start
+                0x00000000       0x74 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyDelayFreq
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyWdtStart
+                0x00000000       0x40 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyWdtClear
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdStickyStatus
+                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdLvDigitEnable
+                0x00000000       0x84 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdLvAnalogEnable
+                0x00000000       0x80 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdLvDigitDisable
+                0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdLvAnalogDisable
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdHvAnalogEnable
+                0x00000000       0x54 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdHvAnalogDisable
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyVdRealTimeStatus
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyDisableInts
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyEnableInts
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyFlushCache
+                0x00000000       0x44 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIntSetSysVector
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIntGetSysVector
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIntGetVector
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIntGetPriority
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyIntGetState
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickStop
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickEnableInterrupt
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickEnable
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickDisableInterrupt
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickSetReload
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickGetReload
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickGetValue
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickSetClockSource
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickGetClockSource
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickGetCountFlag
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickServiceCallbacks
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickClear
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickInit
+                0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickStart
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickSetCallback
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CySysTickGetCallback
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text.CyGetUniqueId
+                0x00000000       0x70 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .bss           0x00000000       0x43 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHibSlpSaveSet
+                0x00000000      0x1dc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHibSlpRestore
+                0x00000000       0xd8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHviLviSaveDisable
+                0x00000000       0xa0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHibSaveSet
+                0x00000000       0x98 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHviLviRestore
+                0x00000000       0x48 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHibRestore
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmSaveClocks
+                0x00000000      0x218 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmRestoreClocks
+                0x00000000      0x24c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmAltAct
+                0x00000000       0x6c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmSleep
+                0x00000000       0xf4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHibernateEx
+                0x00000000       0xf4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmHibernate
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmReadStatus
+                0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmCtwSetInterval
+                0x00000000       0x5c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmOppsSet
+                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text.CyPmFtwSetInterval
+                0x00000000       0x5c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .rodata        0x00000000        0xf .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .text.Internal_LED_SetDriveMode
+                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .text.Internal_LED_Read
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .text.Internal_LED_ReadDataReg
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .text.LEDs_1_8_Read
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .text.LEDs_9_10_Read
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CySetTempInt
+                0x00000000       0x60 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyFlash_Start
+                0x00000000       0x54 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyFlash_Stop
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyFlash_EraseRow
+                0x00000000       0x78 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyFlashGetSpcAlgorithm
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CySetTemp
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CySetFlashEEBuffer
+                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyWriteRowFull
+                0x00000000       0xf8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyWriteRowData
+                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyFlash_SetWaitCycles
+                0x00000000       0x7c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyEEPROM_Start
+                0x00000000       0x54 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyEEPROM_Stop
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyEEPROM_ReadReserve
+                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text.CyEEPROM_ReadRelease
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ COMMON         0x00000000        0x2 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .bss           0x00000000        0x8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcStart
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcStop
+                0x00000000       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcReadData
+                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcLoadMultiByte
+                0x00000000       0x78 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcLoadRow
+                0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcLoadRowFull
+                0x00000000       0x80 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcWriteRow
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcEraseSector
+                0x00000000       0x3c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcEraseRow
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcGetTemp
+                0x00000000       0x3c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcLock
+                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcUnlock
+                0x00000000       0x38 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text.CySpcGetAlgorithm
+                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x28 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00040000         xr
+ram              0x1fff8000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+START GROUP
+LOAD .\CortexM3\ARM_GCC_541\Debug\main.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+LOAD .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a
+LOAD C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+END GROUP
+                0x00000000                CY_APPL_ORIGIN = 0x0
+                0x00000100                CY_FLASH_ROW_SIZE = 0x100
+                0x00000020                CY_ECC_ROW_SIZE = 0x20
+                0x00000000                CY_EE_IN_BTLDR = 0x0
+                0x00000000                CY_APPL_LOADABLE = 0x0
+                0x00000800                CY_EE_SIZE = 0x800
+                0x00000001                CY_APPL_NUM = 0x1
+                0x00000001                CY_APPL_MAX = 0x1
+                0x00000040                CY_METADATA_SIZE = 0x40
+                0x00000000                CY_APPL_LOADABLE = 0x0
+                0x00000000                CY_CHECKSUM_EXCLUDE_SIZE = ALIGN (0x0, CY_FLASH_ROW_SIZE)
+                [!provide]                PROVIDE (__cy_heap_start, _end)
+                0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
+                0x20008000                PROVIDE (__cy_stack, (ORIGIN (ram) + LENGTH (ram)))
+                [!provide]                PROVIDE (__cy_heap_end, (__cy_stack - 0x800))
+
+.cybootloader   0x00000000        0x0
+ *(.cybootloader)
+                0x00000000                appl1_start = CY_APPL_ORIGIN?CY_APPL_ORIGIN:ALIGN (CY_FLASH_ROW_SIZE)
+                0x0001ff00                appl2_start = (appl1_start + ALIGN ((((LENGTH (rom) - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
+                0x00000000                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
+                0x00000000                ecc_offset = ((appl_start / CY_FLASH_ROW_SIZE) * CY_ECC_ROW_SIZE)
+                0x00000000                ee_offset = (CY_APPL_LOADABLE && ! (CY_EE_IN_BTLDR))?((CY_EE_SIZE / CY_APPL_MAX) * (CY_APPL_NUM - 0x1)):0x0
+                0x00000800                ee_size = (CY_APPL_LOADABLE && ! (CY_EE_IN_BTLDR))?(CY_EE_SIZE / CY_APPL_MAX):CY_EE_SIZE
+                [!provide]                PROVIDE (CY_ECC_OFFSET, ecc_offset)
+
+.text           0x00000000     0x19ae
+ CREATE_OBJECT_SYMBOLS
+                0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
+ *(.romvectors)
+ .romvectors    0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00000000                RomVectors
+                0x00000001                ASSERT ((. != __cy_interrupt_vector), No interrupt vector)
+                0x00000001                ASSERT (CY_APPL_ORIGIN?(SIZEOF (.cybootloader) <= CY_APPL_ORIGIN):0x1, Wrong image location)
+                0x00000010                PROVIDE (__cy_reset, Reset)
+ *(.text.Reset)
+ .text.Reset    0x00000010       0x18 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00000010                Reset
+                0x00000001                ASSERT ((. != __cy_reset), No reset code)
+ *(.dma_init)
+                0x00000001                ASSERT ((((appl_start + .) <= 0x10000) || 0x1), DMA Init must be within the first 64k of flash)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000028       0x5c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .text.startup  0x00000084       0x48 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x00000084                startup
+ .text.read_buttons
+                0x000000cc       0x18 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000000cc                read_buttons
+ .text.write_leds
+                0x000000e4       0x18 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000000e4                write_leds
+ .text.blink_button
+                0x000000fc       0x2c .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x000000fc                blink_button
+ .text.main     0x00000128       0x34 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x00000128                main
+ .text.CyClockStartupError
+                0x0000015c        0x4 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.cfg_write_bytes32
+                0x00000160       0x34 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.AnalogSetDefault
+                0x00000194       0x28 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.CYMEMZERO
+                0x000001bc        0xc .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.ClockSetup
+                0x000001c8       0xbc .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.CYCONFIGCPY
+                0x00000284        0x8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.cyfitter_cfg
+                0x0000028c      0x108 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x0000028c                cyfitter_cfg
+ .text.IntDefaultHandler
+                0x00000394       0x10 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00000394                IntDefaultHandler
+ .text.Start_c  0x000003a4       0x4c .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x000003a4                Start_c
+ .text.initialize_psoc
+                0x000003f0       0x68 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x000003f0                initialize_psoc
+ .text.USB_Init
+                0x00000458      0x118 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x00000458                USB_Init
+ .text.USB_InitComponent
+                0x00000570       0xc4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x00000570                USB_InitComponent
+ .text.USB_Start
+                0x00000634       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x00000634                USB_Start
+ .text.USB_ReInitComponent
+                0x00000658       0x64 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x00000658                USB_ReInitComponent
+ .text.USB_GetConfiguration
+                0x000006bc        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x000006bc                USB_GetConfiguration
+ .text.USB_GetEPState
+                0x000006c8       0x14 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x000006c8                USB_GetEPState
+ .text.USB_LoadInEP
+                0x000006dc       0x94 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x000006dc                USB_LoadInEP
+ .text.USB_EnableOutEP
+                0x00000770       0x2c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x00000770                USB_EnableOutEP
+ .text.USB_GetEPAckState
+                0x0000079c       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x0000079c                USB_GetEPAckState
+ .text.USB_LoadEP0
+                0x000007bc       0x98 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x000007bc                USB_LoadEP0
+ .text.USB_InitZeroLengthControlTransfer
+                0x00000854       0x34 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000854                USB_InitZeroLengthControlTransfer
+ .text.USB_ControlReadDataStage
+                0x00000888        0x8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000888                USB_ControlReadDataStage
+ .text.USB_ControlWriteDataStage
+                0x00000890       0x84 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000890                USB_ControlWriteDataStage
+ .text.USB_InitNoDataControlTransfer
+                0x00000914       0x2c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000914                USB_InitNoDataControlTransfer
+ .text.USB_UpdateStatusBlock
+                0x00000940       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000940                USB_UpdateStatusBlock
+ .text.USB_HandleSetup
+                0x00000964       0x5c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000964                USB_HandleSetup
+ .text.USB_ControlReadStatusStage
+                0x000009c0       0x38 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x000009c0                USB_ControlReadStatusStage
+ .text.USB_HandleOUT
+                0x000009f8       0x38 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x000009f8                USB_HandleOUT
+ .text.USB_ControlWriteStatusStage
+                0x00000a30       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000a30                USB_ControlWriteStatusStage
+ .text.USB_NoDataControlStatusStage
+                0x00000a50       0x40 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000a50                USB_NoDataControlStatusStage
+ .text.USB_HandleIN
+                0x00000a90       0x2c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000a90                USB_HandleIN
+ .text.USB_EP_0_ISR
+                0x00000abc       0xb8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000abc                USB_EP_0_ISR
+ .text.USB_InitializeStatusBlock
+                0x00000b74       0x24 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000b74                USB_InitializeStatusBlock
+ .text.USB_InitControlRead
+                0x00000b98       0x50 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000b98                USB_InitControlRead
+ .text.USB_InitControlWrite
+                0x00000be8       0x48 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x00000be8                USB_InitControlWrite
+ .text.USB_EP_1_ISR
+                0x00000c30       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+                0x00000c30                USB_EP_1_ISR
+ .text.USB_EP_2_ISR
+                0x00000c60       0x34 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+                0x00000c60                USB_EP_2_ISR
+ .text.USB_BUS_RESET_ISR
+                0x00000c94        0x8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+                0x00000c94                USB_BUS_RESET_ISR
+ .text.USB_FindHidClassDecriptor
+                0x00000c9c       0x44 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+                0x00000c9c                USB_FindHidClassDecriptor
+ .text.USB_FindReportDescriptor
+                0x00000ce0       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+                0x00000ce0                USB_FindReportDescriptor
+ .text.USB_FindReport
+                0x00000d2c       0x7c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+                0x00000d2c                USB_FindReport
+ .text.USB_DispatchHIDClassRqst
+                0x00000da8      0x184 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+                0x00000da8                USB_DispatchHIDClassRqst
+ .text.USB_DP_ISR
+                0x00000f2c        0x8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+                0x00000f2c                USB_DP_ISR
+ .text.USB_ConfigReg
+                0x00000f34       0xa4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x00000f34                USB_ConfigReg
+ .text.USB_GetConfigTablePtr
+                0x00000fd8       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x00000fd8                USB_GetConfigTablePtr
+ .text.USB_ConfigAltChanged
+                0x00001000      0x11c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x00001000                USB_ConfigAltChanged
+ .text.USB_GetDeviceTablePtr
+                0x0000111c       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x0000111c                USB_GetDeviceTablePtr
+ .text.USB_GetInterfaceClassTablePtr
+                0x00001134       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x00001134                USB_GetInterfaceClassTablePtr
+ .text.USB_Config
+                0x0000115c      0x1c4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x0000115c                USB_Config
+ .text.USB_SetEndpointHalt
+                0x00001320       0x64 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x00001320                USB_SetEndpointHalt
+ .text.USB_ClearEndpointHalt
+                0x00001384       0xac .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x00001384                USB_ClearEndpointHalt
+ .text.USB_ValidateAlternateSetting
+                0x00001430       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x00001430                USB_ValidateAlternateSetting
+ .text.USB_HandleStandardRqst
+                0x0000147c      0x328 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                0x0000147c                USB_HandleStandardRqst
+ .text.USB_HandleVendorRqst
+                0x000017a4       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+                0x000017a4                USB_HandleVendorRqst
+ .text.Status_1_8_Read
+                0x000017bc        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+                0x000017bc                Status_1_8_Read
+ .text.Status_9_11_Read
+                0x000017c8        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+                0x000017c8                Status_9_11_Read
+ .text.USB_Dp_ClearInterrupt
+                0x000017d4       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+                0x000017d4                USB_Dp_ClearInterrupt
+ .text.CyHalt   0x000017e4        0x4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                0x000017e4                CyHalt
+ .text.CyDelay  0x000017e8       0x2c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                0x000017e8                CyDelay
+ .text.CyDelayUs
+                0x00001814       0x14 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                0x00001814                CyDelayUs
+ .text.CyIntSetVector
+                0x00001828       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                0x00001828                CyIntSetVector
+ .text.CyIntSetPriority
+                0x00001850       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                0x00001850                CyIntSetPriority
+ .text.Internal_LED_Write
+                0x00001880       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+                0x00001880                Internal_LED_Write
+ .text.LEDs_1_8_Write
+                0x00001898        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+                0x00001898                LEDs_1_8_Write
+ .text.LEDs_9_10_Write
+                0x000018a4        0xc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+                0x000018a4                LEDs_9_10_Write
+ .text          0x000018b0       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+                0x000018b0                CyDelayCycles
+                0x000018c0                CyEnterCriticalSection
+                0x000018c8                CyExitCriticalSection
+ .text.USB_DispatchClassRqst
+                0x000018d0       0x60 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+                0x000018d0                USB_DispatchClassRqst
+ .text.__errno  0x00001930        0xc c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+                0x00001930                __errno
+ .text.__libc_init_array
+                0x0000193c       0x4c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+                0x0000193c                __libc_init_array
+ .text.memcpy   0x00001988       0x16 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x00001988                memcpy
+ .text.memset   0x0000199e       0x10 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+                0x0000199e                memset
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000019ae        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000019ae        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000019ae        0x0 linker stubs
+ *(.bootloader)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+
+.v4_bx          0x000019b0        0x0
+ .v4_bx         0x000019b0        0x0 linker stubs
+
+.iplt           0x000019b0        0x0
+ .iplt          0x000019b0        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x000019b0        0x4
+ *(.eh_frame)
+ .eh_frame      0x000019b0        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .eh_frame      0x000019b0        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+                [!provide]                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000019b4                __exidx_end = .
+
+.rodata         0x000019b4      0x184
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000019b4       0x2a .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ *fill*         0x000019de        0x2 
+ .rodata        0x000019e0      0x11e .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+                0x000019e0                USB_TABLE
+                0x000019e8                USB_DEVICE0_TABLE
+                0x00001a00                USB_DEVICE0_CONFIGURATION0_TABLE
+                0x00001a20                USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS
+                0x00001a24                USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE
+                0x00001a34                USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE
+                0x00001a3c                USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_TABLE
+                0x00001a64                USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_TABLE
+                0x00001a70                USB_HIDREPORT_DESCRIPTOR1
+                0x00001a94                USB_STRING_DESCRIPTORS
+                0x00001ac0                USB_DEVICE0_CONFIGURATION0_DESCR
+                0x00001aec                USB_DEVICE0_DESCR
+ .rodata.str1.1
+                0x00001afe        0x2 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x00001b00                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00001b00        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00001b00                _init
+ .init          0x00001b04        0x8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00001b0c                . = ALIGN (0x4)
+                0x00001b0c                __preinit_array_start = .
+ *(.preinit_array)
+                0x00001b0c                __preinit_array_end = .
+                0x00001b0c                . = ALIGN (0x4)
+                0x00001b0c                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00001b0c        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .init_array    0x00001b10        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00001b14                __init_array_end = .
+                0x00001b14                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00001b14        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00001b14                _fini
+ .fini          0x00001b18        0x8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00001b20                . = ALIGN (0x4)
+                0x00001b20                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00001b20        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00001b24                __fini_array_end = .
+                0x00001b24                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x00001b24                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x00001b24                . = ALIGN (0x4)
+                0x00001b24                __cy_regions = .
+                0x00001b24        0x4 LONG 0x1b38 __cy_region_init_ram
+                0x00001b28        0x4 LONG 0x1fff80c8 __cy_region_start_data
+                0x00001b2c        0x4 LONG 0x80 __cy_region_init_size_ram
+                0x00001b30        0x4 LONG 0xd0 __cy_region_zero_size_ram
+                0x00001b34                __cy_regions_end = .
+                0x00001b38                . = ALIGN (0x8)
+ *fill*         0x00001b34        0x4 
+                0x00001b38                _etext = .
+
+.cy_checksum_exclude
+                0x00001b38        0x0
+ *(.cy_checksum_exclude)
+
+.ramvectors     0x1fff8000       0xc0
+                0x1fff8000                __cy_region_start_ram = .
+ *(.ramvectors)
+ .ramvectors    0x1fff8000       0xc0 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x1fff8000                CyRamVectors
+
+.noinit         0x1fff80c0        0x1
+ *(.noinit)
+ .noinit        0x1fff80c0        0x1 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                0x1fff80c0                CyResetStatus
+
+.data           0x1fff80c8       0x80 load address 0x00001b38
+                0x1fff80c8                __cy_region_start_data = .
+ *(.jcr)
+ .jcr           0x1fff80c8        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .jcr           0x1fff80c8        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x1fff80cc        0x4 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x1fff80cc                flash_time
+ .data          0x1fff80d0       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                0x1fff80d0                cydelay_32k_ms
+                0x1fff80d4                cydelay_freq_khz
+                0x1fff80d8                cydelay_freq_mhz
+                0x1fff80dc                cydelay_freq_hz
+ .data.impure_data
+                0x1fff80e0       0x60 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x1fff8140        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x1fff8140                _impure_ptr
+                0x1fff8148                . = ALIGN (0x8)
+ *fill*         0x1fff8144        0x4 
+ *(.ram)
+                0x1fff8148                _edata = .
+
+.igot.plt       0x1fff8148        0x0 load address 0x00001bb8
+ .igot.plt      0x1fff8148        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.bss            0x1fff8148       0xd0 load address 0x00001bb8
+                0x1fff8148                PROVIDE (__bss_start__, .)
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x1fff8148       0x1c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .bss           0x1fff8164        0x2 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .bss           0x1fff8166        0x1 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                0x1fff8166                USB_initVar
+ *fill*         0x1fff8167        0x1 
+ .bss           0x1fff8168        0x2 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ *(COMMON)
+ *fill*         0x1fff816a        0x2 
+ COMMON         0x1fff816c       0x98 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                0x1fff816c                USB_transferState
+                0x1fff816d                USB_interfaceNumber
+                0x1fff816e                USB_lastPacketSize
+                0x1fff8170                USB_interfaceClass
+                0x1fff8174                USB_interfaceSetting
+                0x1fff8175                USB_ep0Mode
+                0x1fff8176                USB_device
+                0x1fff8177                USB_deviceAddress
+                0x1fff8178                USB_ep0Toggle
+                0x1fff817c                USB_interfaceSettingLast
+                0x1fff817d                USB_configurationChanged
+                0x1fff8180                USB_interfaceStatus
+                0x1fff8182                USB_transferByteCount
+                0x1fff8184                USB_configuration
+                0x1fff8188                USB_currentTD
+                0x1fff8194                USB_ep0Count
+                0x1fff8195                USB_deviceStatus
+                0x1fff8198                USB_EP
+ COMMON         0x1fff8204        0x9 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+                0x1fff8204                USB_hidProtocol
+                0x1fff8208                USB_hidIdleRate
+                0x1fff820c                USB_hidIdleTimer
+ *fill*         0x1fff820d        0x3 
+ COMMON         0x1fff8210        0x7 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+                0x1fff8210                USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_SCB
+                0x1fff8214                USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_BUF
+                0x1fff8218                . = ALIGN (0x8)
+ *fill*         0x1fff8217        0x1 
+ *(.ram.b)
+                0x1fff8218                _end = .
+                0x1fff8218                __end = .
+                0x1fff8218                PROVIDE (end, .)
+                0x1fff8218                PROVIDE (__bss_end__, .)
+                0x00001b38                __cy_region_init_ram = LOADADDR (.data)
+                0x00000080                __cy_region_init_size_ram = (_edata - ADDR (.data))
+                0x000000d0                __cy_region_zero_size_ram = (_end - _edata)
+
+.heap           0x1fff8218       0x80 load address 0x00001bb8
+                0x1fff8218                . = _end
+                0x1fff8298                . = (. + 0x80)
+ *fill*         0x1fff8218       0x80 
+                0x1fff8298                __cy_heap_limit = .
+
+.stack          0x20007800      0x800
+                0x20007800                __cy_stack_limit = .
+                0x20008000                . = (. + 0x800)
+ *fill*         0x20007800      0x800 
+                0x00000001                ASSERT ((__cy_stack_limit >= __cy_heap_limit), region RAM overflowed with stack)
+                0x00000000                cy_checksum_exclude_size = (CY_APPL_LOADABLE == 0x1)?SIZEOF (.cy_checksum_exclude):0x0
+                0x00000001                ASSERT ((cy_checksum_exclude_size <= CY_CHECKSUM_EXCLUDE_SIZE), CY_BOOT: Section .cy_checksum_exclude size exceedes specified limit.)
+
+.cyloadermeta
+ *(.cyloadermeta)
+
+.cyloadablemeta
+ *(.cyloadablemeta)
+
+.cyconfigecc    0x80000000      0x21c
+ *(.cyconfigecc)
+ .cyconfigecc   0x80000000      0x21c .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x80000000                cy_meta_configecc
+
+.cycustnvl      0x90000000        0x4
+ *(.cycustnvl)
+ .cycustnvl     0x90000000        0x4 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90000000                cy_meta_custnvl
+
+.cywolatch      0x90100000        0x4
+ *(.cywolatch)
+ .cywolatch     0x90100000        0x4 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90100000                cy_meta_wonvl
+
+.cyeeprom       0x90200000        0x0
+ *(.cyeeprom)
+                0x00000001                ASSERT ((. <= ((0x90200000 + ee_offset) + ee_size)), .cyeeprom data will not fit in EEPROM)
+
+.cyflashprotect
+                0x90400000      0x100
+ *(.cyflashprotect)
+ .cyflashprotect
+                0x90400000      0x100 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90400000                cy_meta_flashprotect
+
+.cymeta         0x90500000        0xc
+ *(.cymeta)
+ .cymeta        0x90500000        0xc .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x90500000                cy_metadata
+
+.rel.dyn        0x00001bb8        0x0 load address 0x9050000c
+ .rel.iplt      0x00001bb8        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x990
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_aranges
+                0x00000040       0x58 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_aranges
+                0x00000098       0x18 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_aranges
+                0x000000b0       0x48 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_aranges
+                0x000000f8       0xc8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .debug_aranges
+                0x000001c0       0x98 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .debug_aranges
+                0x00000258       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .debug_aranges
+                0x00000288       0x48 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .debug_aranges
+                0x000002d0       0x40 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .debug_aranges
+                0x00000310       0x78 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .debug_aranges
+                0x00000388       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .debug_aranges
+                0x000003a8       0x40 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .debug_aranges
+                0x000003e8       0x40 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .debug_aranges
+                0x00000428       0x48 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .debug_aranges
+                0x00000470      0x2a0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .debug_aranges
+                0x00000710       0x98 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .debug_aranges
+                0x000007a8       0x38 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .debug_aranges
+                0x000007e0       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .debug_aranges
+                0x00000808       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .debug_aranges
+                0x00000830       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x00000850       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .debug_aranges
+                0x00000870       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .debug_aranges
+                0x00000888       0x88 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .debug_aranges
+                0x00000910       0x80 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x67d7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x357 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_info    0x00000357      0x513 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x0000086a      0x135 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x0000099f      0x3bb .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_info    0x00000d5a      0x96f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .debug_info    0x000016c9      0x655 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .debug_info    0x00001d1e      0x231 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .debug_info    0x00001f4f      0x43b .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .debug_info    0x0000238a      0x2e4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .debug_info    0x0000266e      0x9ed .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .debug_info    0x0000305b       0xed .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .debug_info    0x00003148      0x17d .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .debug_info    0x000032c5      0x17f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .debug_info    0x00003444      0x174 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .debug_info    0x000035b8     0x1374 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .debug_info    0x0000492c      0xa2a .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .debug_info    0x00005356      0x11f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .debug_info    0x00005475       0xd6 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .debug_info    0x0000554b       0xd6 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .debug_info    0x00005621       0xac .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+ .debug_info    0x000056cd      0x1de .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .debug_info    0x000058ab      0x38f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .debug_info    0x00005c3a      0x64d .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .debug_info    0x00006287      0x550 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+
+.debug_abbrev   0x00000000     0x1b70
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x148 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_abbrev  0x00000148      0x1fe .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_abbrev  0x00000346       0x66 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x000003ac      0x1e8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_abbrev  0x00000594      0x215 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .debug_abbrev  0x000007a9      0x189 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .debug_abbrev  0x00000932      0x103 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .debug_abbrev  0x00000a35      0x16d .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .debug_abbrev  0x00000ba2      0x108 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .debug_abbrev  0x00000caa      0x1d8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .debug_abbrev  0x00000e82       0x9b .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .debug_abbrev  0x00000f1d       0xac .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .debug_abbrev  0x00000fc9       0xac .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .debug_abbrev  0x00001075       0x90 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .debug_abbrev  0x00001105      0x254 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .debug_abbrev  0x00001359      0x1ab .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .debug_abbrev  0x00001504       0x90 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .debug_abbrev  0x00001594       0x81 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .debug_abbrev  0x00001615       0x81 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .debug_abbrev  0x00001696       0x14 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x000016aa       0xe1 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .debug_abbrev  0x0000178b       0xaa .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .debug_abbrev  0x00001835      0x1a7 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .debug_abbrev  0x000019dc      0x194 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+
+.debug_line     0x00000000     0x2837
+ *(.debug_line)
+ .debug_line    0x00000000      0x25d .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_line    0x0000025d      0x1d8 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x00000435      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x00000576      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_line    0x000007aa      0x2e4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .debug_line    0x00000a8e      0x215 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .debug_line    0x00000ca3       0xae .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .debug_line    0x00000d51      0x143 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .debug_line    0x00000e94       0xfe .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .debug_line    0x00000f92      0x360 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .debug_line    0x000012f2       0x6b .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .debug_line    0x0000135d       0xb5 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .debug_line    0x00001412       0xb7 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .debug_line    0x000014c9       0xb7 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .debug_line    0x00001580      0x816 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .debug_line    0x00001d96      0x367 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .debug_line    0x000020fd       0x99 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .debug_line    0x00002196       0x70 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .debug_line    0x00002206       0x71 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .debug_line    0x00002277       0x66 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+ .debug_line    0x000022dd       0x87 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .debug_line    0x00002364       0x59 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .debug_line    0x000023bd      0x21a .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .debug_line    0x000025d7      0x260 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+
+.debug_frame    0x00000000     0x17e4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa0 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_frame   0x000000a0       0xe4 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_frame   0x00000184       0xb8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_frame   0x0000023c      0x1dc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .debug_frame   0x00000418      0x194 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .debug_frame   0x000005ac       0x4c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .debug_frame   0x000005f8       0xa0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .debug_frame   0x00000698       0xa0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .debug_frame   0x00000738      0x150 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .debug_frame   0x00000888       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .debug_frame   0x000008a8       0x78 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .debug_frame   0x00000920       0x78 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .debug_frame   0x00000998       0x70 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .debug_frame   0x00000a08      0x738 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .debug_frame   0x00001140      0x1f8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .debug_frame   0x00001338       0x50 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .debug_frame   0x00001388       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .debug_frame   0x000013b8       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .debug_frame   0x000013e8       0x2c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .debug_frame   0x00001414      0x194 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .debug_frame   0x000015a8      0x180 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .debug_frame   0x00001728       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00001748       0x28 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x00001770       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000179c       0x28 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000017c4       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x22c6
+ *(.debug_str)
+ .debug_str     0x00000000      0x285 .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0x2cd (size before relaxing)
+ .debug_str     0x00000285      0x181 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x32b (size before relaxing)
+ .debug_str     0x00000406       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                                0x200 (size before relaxing)
+ .debug_str     0x00000485      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                                0x326 (size before relaxing)
+ .debug_str     0x000005c9      0x3b8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+                                0x5f6 (size before relaxing)
+ .debug_str     0x00000981      0x2de .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+                                0x5bc (size before relaxing)
+ .debug_str     0x00000c5f       0x4f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+                                0x2b6 (size before relaxing)
+ .debug_str     0x00000cae      0x10e .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+                                0x3ca (size before relaxing)
+ .debug_str     0x00000dbc       0xaa .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+                                0x2dc (size before relaxing)
+ .debug_str     0x00000e66      0x1d4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+                                0x698 (size before relaxing)
+ .debug_str     0x0000103a       0x21 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+                                0x1fd (size before relaxing)
+ .debug_str     0x0000105b       0x98 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+                                0x277 (size before relaxing)
+ .debug_str     0x000010f3       0x89 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+                                0x27d (size before relaxing)
+ .debug_str     0x0000117c       0x8c .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+                                0x241 (size before relaxing)
+ .debug_str     0x00001208      0x7dc .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+                                0xa63 (size before relaxing)
+ .debug_str     0x000019e4      0x365 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+                                0x74f (size before relaxing)
+ .debug_str     0x00001d49       0x6b .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+                                0x221 (size before relaxing)
+ .debug_str     0x00001db4       0x38 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+                                0x1d4 (size before relaxing)
+ .debug_str     0x00001dec       0x32 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+                                0x1d7 (size before relaxing)
+ .debug_str     0x00001e1e       0x21 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+                                0x2ac (size before relaxing)
+ .debug_str     0x00001e3f      0x220 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+                                0x48c (size before relaxing)
+ .debug_str     0x0000205f      0x1bb .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+                                0x3dc (size before relaxing)
+ .debug_str     0x0000221a       0xac .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+                                0x354 (size before relaxing)
+
+.debug_loc      0x00000000     0x2dbf
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x67 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_loc     0x00000067      0x1d7 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_loc     0x0000023e      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_loc     0x00000382      0x435 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .debug_loc     0x000007b7      0x171 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .debug_loc     0x00000928      0x3a8 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .debug_loc     0x00000cd0       0x26 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .debug_loc     0x00000cf6      0x883 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .debug_loc     0x00001579       0x26 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .debug_loc     0x0000159f       0x44 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .debug_loc     0x000015e3       0x84 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .debug_loc     0x00001667      0xa11 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .debug_loc     0x00002078      0x1e4 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .debug_loc     0x0000225c       0x42 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .debug_loc     0x0000229e       0x6a .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .debug_loc     0x00002308      0x3b2 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .debug_loc     0x000026ba      0x705 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000      0x808
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_ranges  0x00000030       0x48 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_ranges  0x00000078       0x38 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_ranges  0x000000b0       0xd0 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .debug_ranges  0x00000180       0x88 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .debug_ranges  0x00000208       0x20 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .debug_ranges  0x00000228       0x38 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .debug_ranges  0x00000260       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .debug_ranges  0x00000290       0x68 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .debug_ranges  0x000002f8       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .debug_ranges  0x00000308       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .debug_ranges  0x00000338       0x30 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .debug_ranges  0x00000368       0x38 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .debug_ranges  0x000003a0      0x290 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .debug_ranges  0x00000630       0x88 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .debug_ranges  0x000006b8       0x28 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .debug_ranges  0x000006e0       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .debug_ranges  0x000006f8       0x18 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .debug_ranges  0x00000710       0x10 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .debug_ranges  0x00000720       0x78 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .debug_ranges  0x00000798       0x70 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e .\CortexM3\ARM_GCC_541\Debug\main.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x33 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .ARM.attributes
+                0x00000098       0x33 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .ARM.attributes
+                0x000000cb       0x33 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .ARM.attributes
+                0x000000fe       0x33 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .ARM.attributes
+                0x00000131       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB.o)
+ .ARM.attributes
+                0x00000164       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_drv.o)
+ .ARM.attributes
+                0x00000197       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_episr.o)
+ .ARM.attributes
+                0x000001ca       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_hid.o)
+ .ARM.attributes
+                0x000001fd       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_pm.o)
+ .ARM.attributes
+                0x00000230       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_std.o)
+ .ARM.attributes
+                0x00000263       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_vnd.o)
+ .ARM.attributes
+                0x00000296       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_1_8.o)
+ .ARM.attributes
+                0x000002c9       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Status_9_11.o)
+ .ARM.attributes
+                0x000002fc       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_Dp.o)
+ .ARM.attributes
+                0x0000032f       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyLib.o)
+ .ARM.attributes
+                0x00000362       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(cyPm.o)
+ .ARM.attributes
+                0x00000395       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(Internal_LED.o)
+ .ARM.attributes
+                0x000003c8       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_1_8.o)
+ .ARM.attributes
+                0x000003fb       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(LEDs_9_10.o)
+ .ARM.attributes
+                0x0000042e       0x21 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyBootAsmGnu.o)
+ .ARM.attributes
+                0x0000044f       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_cls.o)
+ .ARM.attributes
+                0x00000482       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(USB_descr.o)
+ .ARM.attributes
+                0x000004b5       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CyFlash.o)
+ .ARM.attributes
+                0x000004e8       0x33 .\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.a(CySpc.o)
+ .ARM.attributes
+                0x0000051b       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000548       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000575       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000005a2       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000005cf       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000005fc       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000629       0x2d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000656       0x1d c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(C:\Users\Chantilly Robotics\Documents\2020_Control_Scheme\PSoC-2020\2020-Control-Scheme.cydsn\CortexM3\ARM_GCC_541\Debug\2020-Control-Scheme.elf elf32-littlearm)

@@ -1,0 +1,1222 @@
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"USB_descr.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	USB_TABLE
+  20              		.global	USB_DEVICE0_TABLE
+  21              		.global	USB_DEVICE0_CONFIGURATION0_TABLE
+  22              		.global	USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS
+  23              		.global	USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE
+  24              		.global	USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE
+  25              		.global	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_TABLE
+  26              		.global	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_TABLE
+  27              		.comm	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_BUF,3,4
+  28              		.comm	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_SCB,4,4
+  29              		.global	USB_HIDREPORT_DESCRIPTOR1
+  30              		.global	USB_STRING_DESCRIPTORS
+  31              		.global	USB_DEVICE0_CONFIGURATION0_DESCR
+  32              		.global	USB_DEVICE0_DESCR
+  33              		.section	.rodata
+  34              		.align	2
+  35              		.type	USB_TABLE, %object
+  36              		.size	USB_TABLE, 8
+  37              	USB_TABLE:
+  38 0000 01       		.byte	1
+  39 0001 000000   		.space	3
+  40 0004 00000000 		.word	USB_DEVICE0_TABLE
+  41              		.type	USB_DEVICE0_TABLE, %object
+  42              		.size	USB_DEVICE0_TABLE, 24
+  43              	USB_DEVICE0_TABLE:
+  44 0008 01       		.byte	1
+  45 0009 000000   		.space	3
+  46 000c 00000000 		.word	USB_DEVICE0_DESCR
+  47 0010 00       		.byte	0
+  48 0011 000000   		.space	3
+  49 0014 00000000 		.word	0
+  50 0018 01       		.byte	1
+  51 0019 000000   		.space	3
+  52 001c 00000000 		.word	USB_DEVICE0_CONFIGURATION0_TABLE
+  53              		.type	USB_DEVICE0_CONFIGURATION0_TABLE, %object
+  54              		.size	USB_DEVICE0_CONFIGURATION0_TABLE, 32
+  55              	USB_DEVICE0_CONFIGURATION0_TABLE:
+  56 0020 01       		.byte	1
+  57 0021 000000   		.space	3
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 2
+
+
+  58 0024 00000000 		.word	USB_DEVICE0_CONFIGURATION0_DESCR
+  59 0028 02       		.byte	2
+  60 0029 000000   		.space	3
+  61 002c 00000000 		.word	USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE
+  62 0030 01       		.byte	1
+  63 0031 000000   		.space	3
+  64 0034 00000000 		.word	USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE
+  65 0038 00       		.byte	0
+  66 0039 000000   		.space	3
+  67 003c 00000000 		.word	USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS
+  68              		.type	USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS, %object
+  69              		.size	USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS, 1
+  70              	USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS:
+  71 0040 03       		.byte	3
+  72 0041 000000   		.space	3
+  73              		.type	USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE, %object
+  74              		.size	USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE, 16
+  75              	USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE:
+  76 0044 00       		.byte	0
+  77 0045 00       		.byte	0
+  78 0046 81       		.byte	-127
+  79 0047 03       		.byte	3
+  80 0048 0B00     		.short	11
+  81 004a 03       		.byte	3
+  82 004b 00       		.space	1
+  83 004c 00       		.byte	0
+  84 004d 00       		.byte	0
+  85 004e 02       		.byte	2
+  86 004f 03       		.byte	3
+  87 0050 0200     		.short	2
+  88 0052 03       		.byte	3
+  89 0053 00       		.space	1
+  90              		.type	USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE, %object
+  91              		.size	USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE, 8
+  92              	USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE:
+  93 0054 01       		.byte	1
+  94 0055 000000   		.space	3
+  95 0058 00000000 		.word	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_TABLE
+  96              		.type	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_TABLE, %object
+  97              		.size	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_TABLE, 40
+  98              	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_TABLE:
+  99 005c 00       		.byte	0
+ 100 005d 000000   		.space	3
+ 101 0060 00000000 		.word	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_TABLE
+ 102 0064 00       		.byte	0
+ 103 0065 000000   		.space	3
+ 104 0068 00000000 		.word	0
+ 105 006c 00       		.byte	0
+ 106 006d 000000   		.space	3
+ 107 0070 00000000 		.word	0
+ 108 0074 01       		.byte	1
+ 109 0075 000000   		.space	3
+ 110 0078 00000000 		.word	USB_HIDREPORT_DESCRIPTOR1
+ 111 007c 01       		.byte	1
+ 112 007d 000000   		.space	3
+ 113 0080 12000000 		.word	USB_DEVICE0_CONFIGURATION0_DESCR+18
+ 114              		.type	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_TABLE, %object
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 3
+
+
+ 115              		.size	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_TABLE, 12
+ 116              	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_TABLE:
+ 117 0084 0300     		.short	3
+ 118 0086 0000     		.space	2
+ 119 0088 00000000 		.word	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_BUF
+ 120 008c 00000000 		.word	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_SCB
+ 121              		.type	USB_HIDREPORT_DESCRIPTOR1, %object
+ 122              		.size	USB_HIDREPORT_DESCRIPTOR1, 33
+ 123              	USB_HIDREPORT_DESCRIPTOR1:
+ 124 0090 1D       		.byte	29
+ 125 0091 00       		.byte	0
+ 126 0092 05       		.byte	5
+ 127 0093 01       		.byte	1
+ 128 0094 09       		.byte	9
+ 129 0095 04       		.byte	4
+ 130 0096 A1       		.byte	-95
+ 131 0097 01       		.byte	1
+ 132 0098 05       		.byte	5
+ 133 0099 09       		.byte	9
+ 134 009a 19       		.byte	25
+ 135 009b 01       		.byte	1
+ 136 009c 29       		.byte	41
+ 137 009d 0A       		.byte	10
+ 138 009e 15       		.byte	21
+ 139 009f 00       		.byte	0
+ 140 00a0 25       		.byte	37
+ 141 00a1 01       		.byte	1
+ 142 00a2 75       		.byte	117
+ 143 00a3 01       		.byte	1
+ 144 00a4 95       		.byte	-107
+ 145 00a5 0A       		.byte	10
+ 146 00a6 81       		.byte	-127
+ 147 00a7 02       		.byte	2
+ 148 00a8 75       		.byte	117
+ 149 00a9 06       		.byte	6
+ 150 00aa 95       		.byte	-107
+ 151 00ab 01       		.byte	1
+ 152 00ac 81       		.byte	-127
+ 153 00ad 03       		.byte	3
+ 154 00ae C0       		.byte	-64
+ 155 00af 00       		.byte	0
+ 156 00b0 00       		.byte	0
+ 157 00b1 000000   		.space	3
+ 158              		.type	USB_STRING_DESCRIPTORS, %object
+ 159              		.size	USB_STRING_DESCRIPTORS, 41
+ 160              	USB_STRING_DESCRIPTORS:
+ 161 00b4 04       		.byte	4
+ 162 00b5 03       		.byte	3
+ 163 00b6 09       		.byte	9
+ 164 00b7 04       		.byte	4
+ 165 00b8 12       		.byte	18
+ 166 00b9 03       		.byte	3
+ 167 00ba 54       		.byte	84
+ 168 00bb 00       		.byte	0
+ 169 00bc 65       		.byte	101
+ 170 00bd 00       		.byte	0
+ 171 00be 61       		.byte	97
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 4
+
+
+ 172 00bf 00       		.byte	0
+ 173 00c0 6D       		.byte	109
+ 174 00c1 00       		.byte	0
+ 175 00c2 20       		.byte	32
+ 176 00c3 00       		.byte	0
+ 177 00c4 36       		.byte	54
+ 178 00c5 00       		.byte	0
+ 179 00c6 31       		.byte	49
+ 180 00c7 00       		.byte	0
+ 181 00c8 32       		.byte	50
+ 182 00c9 00       		.byte	0
+ 183 00ca 12       		.byte	18
+ 184 00cb 03       		.byte	3
+ 185 00cc 47       		.byte	71
+ 186 00cd 00       		.byte	0
+ 187 00ce 75       		.byte	117
+ 188 00cf 00       		.byte	0
+ 189 00d0 6E       		.byte	110
+ 190 00d1 00       		.byte	0
+ 191 00d2 20       		.byte	32
+ 192 00d3 00       		.byte	0
+ 193 00d4 43       		.byte	67
+ 194 00d5 00       		.byte	0
+ 195 00d6 61       		.byte	97
+ 196 00d7 00       		.byte	0
+ 197 00d8 73       		.byte	115
+ 198 00d9 00       		.byte	0
+ 199 00da 65       		.byte	101
+ 200 00db 00       		.byte	0
+ 201 00dc 00       		.byte	0
+ 202 00dd 000000   		.space	3
+ 203              		.type	USB_DEVICE0_CONFIGURATION0_DESCR, %object
+ 204              		.size	USB_DEVICE0_CONFIGURATION0_DESCR, 41
+ 205              	USB_DEVICE0_CONFIGURATION0_DESCR:
+ 206 00e0 09       		.byte	9
+ 207 00e1 02       		.byte	2
+ 208 00e2 29       		.byte	41
+ 209 00e3 00       		.byte	0
+ 210 00e4 01       		.byte	1
+ 211 00e5 01       		.byte	1
+ 212 00e6 00       		.byte	0
+ 213 00e7 80       		.byte	-128
+ 214 00e8 19       		.byte	25
+ 215 00e9 09       		.byte	9
+ 216 00ea 04       		.byte	4
+ 217 00eb 00       		.byte	0
+ 218 00ec 00       		.byte	0
+ 219 00ed 02       		.byte	2
+ 220 00ee 03       		.byte	3
+ 221 00ef 00       		.byte	0
+ 222 00f0 00       		.byte	0
+ 223 00f1 00       		.byte	0
+ 224 00f2 09       		.byte	9
+ 225 00f3 21       		.byte	33
+ 226 00f4 11       		.byte	17
+ 227 00f5 01       		.byte	1
+ 228 00f6 00       		.byte	0
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 5
+
+
+ 229 00f7 01       		.byte	1
+ 230 00f8 22       		.byte	34
+ 231 00f9 1D       		.byte	29
+ 232 00fa 00       		.byte	0
+ 233 00fb 07       		.byte	7
+ 234 00fc 05       		.byte	5
+ 235 00fd 81       		.byte	-127
+ 236 00fe 03       		.byte	3
+ 237 00ff 0B       		.byte	11
+ 238 0100 00       		.byte	0
+ 239 0101 0A       		.byte	10
+ 240 0102 07       		.byte	7
+ 241 0103 05       		.byte	5
+ 242 0104 02       		.byte	2
+ 243 0105 03       		.byte	3
+ 244 0106 02       		.byte	2
+ 245 0107 00       		.byte	0
+ 246 0108 0A       		.byte	10
+ 247 0109 000000   		.space	3
+ 248              		.type	USB_DEVICE0_DESCR, %object
+ 249              		.size	USB_DEVICE0_DESCR, 18
+ 250              	USB_DEVICE0_DESCR:
+ 251 010c 12       		.byte	18
+ 252 010d 01       		.byte	1
+ 253 010e 00       		.byte	0
+ 254 010f 02       		.byte	2
+ 255 0110 00       		.byte	0
+ 256 0111 00       		.byte	0
+ 257 0112 00       		.byte	0
+ 258 0113 08       		.byte	8
+ 259 0114 B4       		.byte	-76
+ 260 0115 04       		.byte	4
+ 261 0116 51       		.byte	81
+ 262 0117 80       		.byte	-128
+ 263 0118 00       		.byte	0
+ 264 0119 00       		.byte	0
+ 265 011a 01       		.byte	1
+ 266 011b 02       		.byte	2
+ 267 011c 00       		.byte	0
+ 268 011d 01       		.byte	1
+ 269              		.text
+ 270              	.Letext0:
+ 271              		.file 1 "Generated_Source\\PSoC5\\cytypes.h"
+ 272              		.file 2 "Generated_Source\\PSoC5\\USB.h"
+ 273              		.file 3 "Generated_Source\\PSoC5\\USB_descr.c"
+ 274              		.section	.debug_info,"",%progbits
+ 275              	.Ldebug_info0:
+ 276 0000 8B030000 		.4byte	0x38b
+ 277 0004 0400     		.2byte	0x4
+ 278 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 279 000a 04       		.byte	0x4
+ 280 000b 01       		.uleb128 0x1
+ 281 000c A0000000 		.4byte	.LASF46
+ 282 0010 0C       		.byte	0xc
+ 283 0011 85020000 		.4byte	.LASF47
+ 284 0015 8F030000 		.4byte	.LASF48
+ 285 0019 00000000 		.4byte	.Ldebug_line0
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 6
+
+
+ 286 001d 02       		.uleb128 0x2
+ 287 001e 01       		.byte	0x1
+ 288 001f 06       		.byte	0x6
+ 289 0020 ED030000 		.4byte	.LASF0
+ 290 0024 02       		.uleb128 0x2
+ 291 0025 01       		.byte	0x1
+ 292 0026 08       		.byte	0x8
+ 293 0027 92000000 		.4byte	.LASF1
+ 294 002b 02       		.uleb128 0x2
+ 295 002c 02       		.byte	0x2
+ 296 002d 05       		.byte	0x5
+ 297 002e 2F030000 		.4byte	.LASF2
+ 298 0032 02       		.uleb128 0x2
+ 299 0033 02       		.byte	0x2
+ 300 0034 07       		.byte	0x7
+ 301 0035 13000000 		.4byte	.LASF3
+ 302 0039 02       		.uleb128 0x2
+ 303 003a 04       		.byte	0x4
+ 304 003b 05       		.byte	0x5
+ 305 003c 7A030000 		.4byte	.LASF4
+ 306 0040 02       		.uleb128 0x2
+ 307 0041 04       		.byte	0x4
+ 308 0042 07       		.byte	0x7
+ 309 0043 74010000 		.4byte	.LASF5
+ 310 0047 02       		.uleb128 0x2
+ 311 0048 08       		.byte	0x8
+ 312 0049 05       		.byte	0x5
+ 313 004a 0B030000 		.4byte	.LASF6
+ 314 004e 02       		.uleb128 0x2
+ 315 004f 08       		.byte	0x8
+ 316 0050 07       		.byte	0x7
+ 317 0051 A8020000 		.4byte	.LASF7
+ 318 0055 03       		.uleb128 0x3
+ 319 0056 04       		.byte	0x4
+ 320 0057 05       		.byte	0x5
+ 321 0058 696E7400 		.ascii	"int\000"
+ 322 005c 02       		.uleb128 0x2
+ 323 005d 04       		.byte	0x4
+ 324 005e 07       		.byte	0x7
+ 325 005f 78020000 		.4byte	.LASF8
+ 326 0063 04       		.uleb128 0x4
+ 327 0064 39030000 		.4byte	.LASF9
+ 328 0068 01       		.byte	0x1
+ 329 0069 E401     		.2byte	0x1e4
+ 330 006b 24000000 		.4byte	0x24
+ 331 006f 04       		.uleb128 0x4
+ 332 0070 2F020000 		.4byte	.LASF10
+ 333 0074 01       		.byte	0x1
+ 334 0075 E501     		.2byte	0x1e5
+ 335 0077 32000000 		.4byte	0x32
+ 336 007b 02       		.uleb128 0x2
+ 337 007c 04       		.byte	0x4
+ 338 007d 04       		.byte	0x4
+ 339 007e 60000000 		.4byte	.LASF11
+ 340 0082 02       		.uleb128 0x2
+ 341 0083 08       		.byte	0x8
+ 342 0084 04       		.byte	0x4
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 7
+
+
+ 343 0085 F0010000 		.4byte	.LASF12
+ 344 0089 02       		.uleb128 0x2
+ 345 008a 01       		.byte	0x1
+ 346 008b 08       		.byte	0x8
+ 347 008c 19030000 		.4byte	.LASF13
+ 348 0090 05       		.uleb128 0x5
+ 349 0091 63000000 		.4byte	0x63
+ 350 0095 02       		.uleb128 0x2
+ 351 0096 08       		.byte	0x8
+ 352 0097 04       		.byte	0x4
+ 353 0098 83030000 		.4byte	.LASF14
+ 354 009c 02       		.uleb128 0x2
+ 355 009d 04       		.byte	0x4
+ 356 009e 07       		.byte	0x7
+ 357 009f 02030000 		.4byte	.LASF15
+ 358 00a3 06       		.uleb128 0x6
+ 359 00a4 08       		.byte	0x8
+ 360 00a5 02       		.byte	0x2
+ 361 00a6 9D       		.byte	0x9d
+ 362 00a7 F4000000 		.4byte	0xf4
+ 363 00ab 07       		.uleb128 0x7
+ 364 00ac 45030000 		.4byte	.LASF16
+ 365 00b0 02       		.byte	0x2
+ 366 00b1 9F       		.byte	0x9f
+ 367 00b2 63000000 		.4byte	0x63
+ 368 00b6 00       		.byte	0
+ 369 00b7 07       		.uleb128 0x7
+ 370 00b8 66000000 		.4byte	.LASF17
+ 371 00bc 02       		.byte	0x2
+ 372 00bd A0       		.byte	0xa0
+ 373 00be 63000000 		.4byte	0x63
+ 374 00c2 01       		.byte	0x1
+ 375 00c3 07       		.uleb128 0x7
+ 376 00c4 86010000 		.4byte	.LASF18
+ 377 00c8 02       		.byte	0x2
+ 378 00c9 A1       		.byte	0xa1
+ 379 00ca 63000000 		.4byte	0x63
+ 380 00ce 02       		.byte	0x2
+ 381 00cf 07       		.uleb128 0x7
+ 382 00d0 2E010000 		.4byte	.LASF19
+ 383 00d4 02       		.byte	0x2
+ 384 00d5 A2       		.byte	0xa2
+ 385 00d6 63000000 		.4byte	0x63
+ 386 00da 03       		.byte	0x3
+ 387 00db 07       		.uleb128 0x7
+ 388 00dc F7010000 		.4byte	.LASF20
+ 389 00e0 02       		.byte	0x2
+ 390 00e1 A3       		.byte	0xa3
+ 391 00e2 6F000000 		.4byte	0x6f
+ 392 00e6 04       		.byte	0x4
+ 393 00e7 07       		.uleb128 0x7
+ 394 00e8 86040000 		.4byte	.LASF21
+ 395 00ec 02       		.byte	0x2
+ 396 00ed A4       		.byte	0xa4
+ 397 00ee 63000000 		.4byte	0x63
+ 398 00f2 06       		.byte	0x6
+ 399 00f3 00       		.byte	0
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 8
+
+
+ 400 00f4 08       		.uleb128 0x8
+ 401 00f5 8B010000 		.4byte	.LASF22
+ 402 00f9 02       		.byte	0x2
+ 403 00fa A5       		.byte	0xa5
+ 404 00fb A3000000 		.4byte	0xa3
+ 405 00ff 06       		.uleb128 0x6
+ 406 0100 04       		.byte	0x4
+ 407 0101 02       		.byte	0x2
+ 408 0102 A7       		.byte	0xa7
+ 409 0103 20010000 		.4byte	0x120
+ 410 0107 07       		.uleb128 0x7
+ 411 0108 26000000 		.4byte	.LASF23
+ 412 010c 02       		.byte	0x2
+ 413 010d A9       		.byte	0xa9
+ 414 010e 63000000 		.4byte	0x63
+ 415 0112 00       		.byte	0
+ 416 0113 07       		.uleb128 0x7
+ 417 0114 1E030000 		.4byte	.LASF24
+ 418 0118 02       		.byte	0x2
+ 419 0119 AA       		.byte	0xaa
+ 420 011a 6F000000 		.4byte	0x6f
+ 421 011e 02       		.byte	0x2
+ 422 011f 00       		.byte	0
+ 423 0120 08       		.uleb128 0x8
+ 424 0121 F9030000 		.4byte	.LASF25
+ 425 0125 02       		.byte	0x2
+ 426 0126 AB       		.byte	0xab
+ 427 0127 FF000000 		.4byte	0xff
+ 428 012b 06       		.uleb128 0x6
+ 429 012c 0C       		.byte	0xc
+ 430 012d 02       		.byte	0x2
+ 431 012e AD       		.byte	0xad
+ 432 012f 58010000 		.4byte	0x158
+ 433 0133 07       		.uleb128 0x7
+ 434 0134 0D000000 		.4byte	.LASF26
+ 435 0138 02       		.byte	0x2
+ 436 0139 AF       		.byte	0xaf
+ 437 013a 6F000000 		.4byte	0x6f
+ 438 013e 00       		.byte	0
+ 439 013f 07       		.uleb128 0x7
+ 440 0140 3F030000 		.4byte	.LASF27
+ 441 0144 02       		.byte	0x2
+ 442 0145 B0       		.byte	0xb0
+ 443 0146 58010000 		.4byte	0x158
+ 444 014a 04       		.byte	0x4
+ 445 014b 07       		.uleb128 0x7
+ 446 014c 00000000 		.4byte	.LASF28
+ 447 0150 02       		.byte	0x2
+ 448 0151 B1       		.byte	0xb1
+ 449 0152 5E010000 		.4byte	0x15e
+ 450 0156 08       		.byte	0x8
+ 451 0157 00       		.byte	0
+ 452 0158 09       		.uleb128 0x9
+ 453 0159 04       		.byte	0x4
+ 454 015a 90000000 		.4byte	0x90
+ 455 015e 09       		.uleb128 0x9
+ 456 015f 04       		.byte	0x4
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 9
+
+
+ 457 0160 20010000 		.4byte	0x120
+ 458 0164 08       		.uleb128 0x8
+ 459 0165 11040000 		.4byte	.LASF29
+ 460 0169 02       		.byte	0x2
+ 461 016a B2       		.byte	0xb2
+ 462 016b 2B010000 		.4byte	0x12b
+ 463 016f 06       		.uleb128 0x6
+ 464 0170 08       		.byte	0x8
+ 465 0171 02       		.byte	0x2
+ 466 0172 B4       		.byte	0xb4
+ 467 0173 8E010000 		.4byte	0x18e
+ 468 0177 0A       		.uleb128 0xa
+ 469 0178 6300     		.ascii	"c\000"
+ 470 017a 02       		.byte	0x2
+ 471 017b B6       		.byte	0xb6
+ 472 017c 63000000 		.4byte	0x63
+ 473 0180 00       		.byte	0
+ 474 0181 07       		.uleb128 0x7
+ 475 0182 FB020000 		.4byte	.LASF30
+ 476 0186 02       		.byte	0x2
+ 477 0187 B7       		.byte	0xb7
+ 478 0188 8E010000 		.4byte	0x18e
+ 479 018c 04       		.byte	0x4
+ 480 018d 00       		.byte	0
+ 481 018e 09       		.uleb128 0x9
+ 482 018f 04       		.byte	0x4
+ 483 0190 94010000 		.4byte	0x194
+ 484 0194 0B       		.uleb128 0xb
+ 485 0195 08       		.uleb128 0x8
+ 486 0196 88000000 		.4byte	.LASF31
+ 487 019a 02       		.byte	0x2
+ 488 019b B8       		.byte	0xb8
+ 489 019c 6F010000 		.4byte	0x16f
+ 490 01a0 0C       		.uleb128 0xc
+ 491 01a1 B0010000 		.4byte	0x1b0
+ 492 01a5 B0010000 		.4byte	0x1b0
+ 493 01a9 0D       		.uleb128 0xd
+ 494 01aa 9C000000 		.4byte	0x9c
+ 495 01ae 11       		.byte	0x11
+ 496 01af 00       		.byte	0
+ 497 01b0 0E       		.uleb128 0xe
+ 498 01b1 63000000 		.4byte	0x63
+ 499 01b5 0F       		.uleb128 0xf
+ 500 01b6 BD010000 		.4byte	.LASF32
+ 501 01ba 03       		.byte	0x3
+ 502 01bb 24       		.byte	0x24
+ 503 01bc C6010000 		.4byte	0x1c6
+ 504 01c0 05       		.uleb128 0x5
+ 505 01c1 03       		.byte	0x3
+ 506 01c2 00000000 		.4byte	USB_DEVICE0_DESCR
+ 507 01c6 0E       		.uleb128 0xe
+ 508 01c7 A0010000 		.4byte	0x1a0
+ 509 01cb 0C       		.uleb128 0xc
+ 510 01cc B0010000 		.4byte	0x1b0
+ 511 01d0 DB010000 		.4byte	0x1db
+ 512 01d4 0D       		.uleb128 0xd
+ 513 01d5 9C000000 		.4byte	0x9c
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 10
+
+
+ 514 01d9 28       		.byte	0x28
+ 515 01da 00       		.byte	0
+ 516 01db 0F       		.uleb128 0xf
+ 517 01dc CF010000 		.4byte	.LASF33
+ 518 01e0 03       		.byte	0x3
+ 519 01e1 37       		.byte	0x37
+ 520 01e2 EC010000 		.4byte	0x1ec
+ 521 01e6 05       		.uleb128 0x5
+ 522 01e7 03       		.byte	0x3
+ 523 01e8 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_DESCR
+ 524 01ec 0E       		.uleb128 0xe
+ 525 01ed CB010000 		.4byte	0x1cb
+ 526 01f1 0C       		.uleb128 0xc
+ 527 01f2 01020000 		.4byte	0x201
+ 528 01f6 01020000 		.4byte	0x201
+ 529 01fa 0D       		.uleb128 0xd
+ 530 01fb 9C000000 		.4byte	0x9c
+ 531 01ff 00       		.byte	0
+ 532 0200 00       		.byte	0
+ 533 0201 0E       		.uleb128 0xe
+ 534 0202 95010000 		.4byte	0x195
+ 535 0206 0F       		.uleb128 0xf
+ 536 0207 1A040000 		.4byte	.LASF34
+ 537 020b 03       		.byte	0x3
+ 538 020c C5       		.byte	0xc5
+ 539 020d 17020000 		.4byte	0x217
+ 540 0211 05       		.uleb128 0x5
+ 541 0212 03       		.byte	0x3
+ 542 0213 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE
+ 543 0217 0E       		.uleb128 0xe
+ 544 0218 F1010000 		.4byte	0x1f1
+ 545 021c 0C       		.uleb128 0xc
+ 546 021d 2C020000 		.4byte	0x22c
+ 547 0221 2C020000 		.4byte	0x22c
+ 548 0225 0D       		.uleb128 0xd
+ 549 0226 9C000000 		.4byte	0x9c
+ 550 022a 01       		.byte	0x1
+ 551 022b 00       		.byte	0
+ 552 022c 0E       		.uleb128 0xe
+ 553 022d F4000000 		.4byte	0xf4
+ 554 0231 0F       		.uleb128 0xf
+ 555 0232 02020000 		.4byte	.LASF35
+ 556 0236 03       		.byte	0x3
+ 557 0237 D0       		.byte	0xd0
+ 558 0238 42020000 		.4byte	0x242
+ 559 023c 05       		.uleb128 0x5
+ 560 023d 03       		.byte	0x3
+ 561 023e 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE
+ 562 0242 0E       		.uleb128 0xe
+ 563 0243 1C020000 		.4byte	0x21c
+ 564 0247 0C       		.uleb128 0xc
+ 565 0248 B0010000 		.4byte	0x1b0
+ 566 024c 57020000 		.4byte	0x257
+ 567 0250 0D       		.uleb128 0xd
+ 568 0251 9C000000 		.4byte	0x9c
+ 569 0255 00       		.byte	0
+ 570 0256 00       		.byte	0
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 11
+
+
+ 571 0257 0F       		.uleb128 0xf
+ 572 0258 4F030000 		.4byte	.LASF36
+ 573 025c 03       		.byte	0x3
+ 574 025d D5       		.byte	0xd5
+ 575 025e 68020000 		.4byte	0x268
+ 576 0262 05       		.uleb128 0x5
+ 577 0263 03       		.byte	0x3
+ 578 0264 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS
+ 579 0268 0E       		.uleb128 0xe
+ 580 0269 47020000 		.4byte	0x247
+ 581 026d 0C       		.uleb128 0xc
+ 582 026e 01020000 		.4byte	0x201
+ 583 0272 7D020000 		.4byte	0x27d
+ 584 0276 0D       		.uleb128 0xd
+ 585 0277 9C000000 		.4byte	0x9c
+ 586 027b 03       		.byte	0x3
+ 587 027c 00       		.byte	0
+ 588 027d 0F       		.uleb128 0xf
+ 589 027e 3F000000 		.4byte	.LASF37
+ 590 0282 03       		.byte	0x3
+ 591 0283 DD       		.byte	0xdd
+ 592 0284 8E020000 		.4byte	0x28e
+ 593 0288 05       		.uleb128 0x5
+ 594 0289 03       		.byte	0x3
+ 595 028a 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_TABLE
+ 596 028e 0E       		.uleb128 0xe
+ 597 028f 6D020000 		.4byte	0x26d
+ 598 0293 0C       		.uleb128 0xc
+ 599 0294 01020000 		.4byte	0x201
+ 600 0298 A3020000 		.4byte	0x2a3
+ 601 029c 0D       		.uleb128 0xd
+ 602 029d 9C000000 		.4byte	0x9c
+ 603 02a1 02       		.byte	0x2
+ 604 02a2 00       		.byte	0
+ 605 02a3 0F       		.uleb128 0xf
+ 606 02a4 2D000000 		.4byte	.LASF38
+ 607 02a8 03       		.byte	0x3
+ 608 02a9 E7       		.byte	0xe7
+ 609 02aa B4020000 		.4byte	0x2b4
+ 610 02ae 05       		.uleb128 0x5
+ 611 02af 03       		.byte	0x3
+ 612 02b0 00000000 		.4byte	USB_DEVICE0_TABLE
+ 613 02b4 0E       		.uleb128 0xe
+ 614 02b5 93020000 		.4byte	0x293
+ 615 02b9 0F       		.uleb128 0xf
+ 616 02ba 25030000 		.4byte	.LASF39
+ 617 02be 03       		.byte	0x3
+ 618 02bf EF       		.byte	0xef
+ 619 02c0 CA020000 		.4byte	0x2ca
+ 620 02c4 05       		.uleb128 0x5
+ 621 02c5 03       		.byte	0x3
+ 622 02c6 00000000 		.4byte	USB_TABLE
+ 623 02ca 0E       		.uleb128 0xe
+ 624 02cb F1010000 		.4byte	0x1f1
+ 625 02cf 0F       		.uleb128 0xf
+ 626 02d0 71000000 		.4byte	.LASF40
+ 627 02d4 03       		.byte	0x3
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 12
+
+
+ 628 02d5 6E       		.byte	0x6e
+ 629 02d6 E0020000 		.4byte	0x2e0
+ 630 02da 05       		.uleb128 0x5
+ 631 02db 03       		.byte	0x3
+ 632 02dc 00000000 		.4byte	USB_STRING_DESCRIPTORS
+ 633 02e0 0E       		.uleb128 0xe
+ 634 02e1 CB010000 		.4byte	0x1cb
+ 635 02e5 0F       		.uleb128 0xf
+ 636 02e6 46040000 		.4byte	.LASF41
+ 637 02ea 03       		.byte	0x3
+ 638 02eb A5       		.byte	0xa5
+ 639 02ec 20010000 		.4byte	0x120
+ 640 02f0 05       		.uleb128 0x5
+ 641 02f1 03       		.byte	0x3
+ 642 02f2 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_SCB
+ 643 02f6 0C       		.uleb128 0xc
+ 644 02f7 63000000 		.4byte	0x63
+ 645 02fb 06030000 		.4byte	0x306
+ 646 02ff 0D       		.uleb128 0xd
+ 647 0300 9C000000 		.4byte	0x9c
+ 648 0304 02       		.byte	0x2
+ 649 0305 00       		.byte	0
+ 650 0306 0F       		.uleb128 0xf
+ 651 0307 BF020000 		.4byte	.LASF42
+ 652 030b 03       		.byte	0x3
+ 653 030c A6       		.byte	0xa6
+ 654 030d F6020000 		.4byte	0x2f6
+ 655 0311 05       		.uleb128 0x5
+ 656 0312 03       		.byte	0x3
+ 657 0313 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_BUF
+ 658 0317 0C       		.uleb128 0xc
+ 659 0318 B0010000 		.4byte	0x1b0
+ 660 031c 27030000 		.4byte	0x327
+ 661 0320 0D       		.uleb128 0xd
+ 662 0321 9C000000 		.4byte	0x9c
+ 663 0325 20       		.byte	0x20
+ 664 0326 00       		.byte	0
+ 665 0327 0F       		.uleb128 0xf
+ 666 0328 A3010000 		.4byte	.LASF43
+ 667 032c 03       		.byte	0x3
+ 668 032d 8B       		.byte	0x8b
+ 669 032e 38030000 		.4byte	0x338
+ 670 0332 05       		.uleb128 0x5
+ 671 0333 03       		.byte	0x3
+ 672 0334 00000000 		.4byte	USB_HIDREPORT_DESCRIPTOR1
+ 673 0338 0E       		.uleb128 0xe
+ 674 0339 17030000 		.4byte	0x317
+ 675 033d 0C       		.uleb128 0xc
+ 676 033e 4D030000 		.4byte	0x34d
+ 677 0342 4D030000 		.4byte	0x34d
+ 678 0346 0D       		.uleb128 0xd
+ 679 0347 9C000000 		.4byte	0x9c
+ 680 034b 00       		.byte	0
+ 681 034c 00       		.byte	0
+ 682 034d 0E       		.uleb128 0xe
+ 683 034e 64010000 		.4byte	0x164
+ 684 0352 0F       		.uleb128 0xf
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 13
+
+
+ 685 0353 36020000 		.4byte	.LASF44
+ 686 0357 03       		.byte	0x3
+ 687 0358 AC       		.byte	0xac
+ 688 0359 63030000 		.4byte	0x363
+ 689 035d 05       		.uleb128 0x5
+ 690 035e 03       		.byte	0x3
+ 691 035f 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_IN_RPT_TABLE
+ 692 0363 0E       		.uleb128 0xe
+ 693 0364 3D030000 		.4byte	0x33d
+ 694 0368 0C       		.uleb128 0xc
+ 695 0369 01020000 		.4byte	0x201
+ 696 036d 78030000 		.4byte	0x378
+ 697 0371 0D       		.uleb128 0xd
+ 698 0372 9C000000 		.4byte	0x9c
+ 699 0376 04       		.byte	0x4
+ 700 0377 00       		.byte	0
+ 701 0378 0F       		.uleb128 0xf
+ 702 0379 39010000 		.4byte	.LASF45
+ 703 037d 03       		.byte	0x3
+ 704 037e B9       		.byte	0xb9
+ 705 037f 89030000 		.4byte	0x389
+ 706 0383 05       		.uleb128 0x5
+ 707 0384 03       		.byte	0x3
+ 708 0385 00000000 		.4byte	USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HID_TABLE
+ 709 0389 0E       		.uleb128 0xe
+ 710 038a 68030000 		.4byte	0x368
+ 711 038e 00       		.byte	0
+ 712              		.section	.debug_abbrev,"",%progbits
+ 713              	.Ldebug_abbrev0:
+ 714 0000 01       		.uleb128 0x1
+ 715 0001 11       		.uleb128 0x11
+ 716 0002 01       		.byte	0x1
+ 717 0003 25       		.uleb128 0x25
+ 718 0004 0E       		.uleb128 0xe
+ 719 0005 13       		.uleb128 0x13
+ 720 0006 0B       		.uleb128 0xb
+ 721 0007 03       		.uleb128 0x3
+ 722 0008 0E       		.uleb128 0xe
+ 723 0009 1B       		.uleb128 0x1b
+ 724 000a 0E       		.uleb128 0xe
+ 725 000b 10       		.uleb128 0x10
+ 726 000c 17       		.uleb128 0x17
+ 727 000d 00       		.byte	0
+ 728 000e 00       		.byte	0
+ 729 000f 02       		.uleb128 0x2
+ 730 0010 24       		.uleb128 0x24
+ 731 0011 00       		.byte	0
+ 732 0012 0B       		.uleb128 0xb
+ 733 0013 0B       		.uleb128 0xb
+ 734 0014 3E       		.uleb128 0x3e
+ 735 0015 0B       		.uleb128 0xb
+ 736 0016 03       		.uleb128 0x3
+ 737 0017 0E       		.uleb128 0xe
+ 738 0018 00       		.byte	0
+ 739 0019 00       		.byte	0
+ 740 001a 03       		.uleb128 0x3
+ 741 001b 24       		.uleb128 0x24
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 14
+
+
+ 742 001c 00       		.byte	0
+ 743 001d 0B       		.uleb128 0xb
+ 744 001e 0B       		.uleb128 0xb
+ 745 001f 3E       		.uleb128 0x3e
+ 746 0020 0B       		.uleb128 0xb
+ 747 0021 03       		.uleb128 0x3
+ 748 0022 08       		.uleb128 0x8
+ 749 0023 00       		.byte	0
+ 750 0024 00       		.byte	0
+ 751 0025 04       		.uleb128 0x4
+ 752 0026 16       		.uleb128 0x16
+ 753 0027 00       		.byte	0
+ 754 0028 03       		.uleb128 0x3
+ 755 0029 0E       		.uleb128 0xe
+ 756 002a 3A       		.uleb128 0x3a
+ 757 002b 0B       		.uleb128 0xb
+ 758 002c 3B       		.uleb128 0x3b
+ 759 002d 05       		.uleb128 0x5
+ 760 002e 49       		.uleb128 0x49
+ 761 002f 13       		.uleb128 0x13
+ 762 0030 00       		.byte	0
+ 763 0031 00       		.byte	0
+ 764 0032 05       		.uleb128 0x5
+ 765 0033 35       		.uleb128 0x35
+ 766 0034 00       		.byte	0
+ 767 0035 49       		.uleb128 0x49
+ 768 0036 13       		.uleb128 0x13
+ 769 0037 00       		.byte	0
+ 770 0038 00       		.byte	0
+ 771 0039 06       		.uleb128 0x6
+ 772 003a 13       		.uleb128 0x13
+ 773 003b 01       		.byte	0x1
+ 774 003c 0B       		.uleb128 0xb
+ 775 003d 0B       		.uleb128 0xb
+ 776 003e 3A       		.uleb128 0x3a
+ 777 003f 0B       		.uleb128 0xb
+ 778 0040 3B       		.uleb128 0x3b
+ 779 0041 0B       		.uleb128 0xb
+ 780 0042 01       		.uleb128 0x1
+ 781 0043 13       		.uleb128 0x13
+ 782 0044 00       		.byte	0
+ 783 0045 00       		.byte	0
+ 784 0046 07       		.uleb128 0x7
+ 785 0047 0D       		.uleb128 0xd
+ 786 0048 00       		.byte	0
+ 787 0049 03       		.uleb128 0x3
+ 788 004a 0E       		.uleb128 0xe
+ 789 004b 3A       		.uleb128 0x3a
+ 790 004c 0B       		.uleb128 0xb
+ 791 004d 3B       		.uleb128 0x3b
+ 792 004e 0B       		.uleb128 0xb
+ 793 004f 49       		.uleb128 0x49
+ 794 0050 13       		.uleb128 0x13
+ 795 0051 38       		.uleb128 0x38
+ 796 0052 0B       		.uleb128 0xb
+ 797 0053 00       		.byte	0
+ 798 0054 00       		.byte	0
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 15
+
+
+ 799 0055 08       		.uleb128 0x8
+ 800 0056 16       		.uleb128 0x16
+ 801 0057 00       		.byte	0
+ 802 0058 03       		.uleb128 0x3
+ 803 0059 0E       		.uleb128 0xe
+ 804 005a 3A       		.uleb128 0x3a
+ 805 005b 0B       		.uleb128 0xb
+ 806 005c 3B       		.uleb128 0x3b
+ 807 005d 0B       		.uleb128 0xb
+ 808 005e 49       		.uleb128 0x49
+ 809 005f 13       		.uleb128 0x13
+ 810 0060 00       		.byte	0
+ 811 0061 00       		.byte	0
+ 812 0062 09       		.uleb128 0x9
+ 813 0063 0F       		.uleb128 0xf
+ 814 0064 00       		.byte	0
+ 815 0065 0B       		.uleb128 0xb
+ 816 0066 0B       		.uleb128 0xb
+ 817 0067 49       		.uleb128 0x49
+ 818 0068 13       		.uleb128 0x13
+ 819 0069 00       		.byte	0
+ 820 006a 00       		.byte	0
+ 821 006b 0A       		.uleb128 0xa
+ 822 006c 0D       		.uleb128 0xd
+ 823 006d 00       		.byte	0
+ 824 006e 03       		.uleb128 0x3
+ 825 006f 08       		.uleb128 0x8
+ 826 0070 3A       		.uleb128 0x3a
+ 827 0071 0B       		.uleb128 0xb
+ 828 0072 3B       		.uleb128 0x3b
+ 829 0073 0B       		.uleb128 0xb
+ 830 0074 49       		.uleb128 0x49
+ 831 0075 13       		.uleb128 0x13
+ 832 0076 38       		.uleb128 0x38
+ 833 0077 0B       		.uleb128 0xb
+ 834 0078 00       		.byte	0
+ 835 0079 00       		.byte	0
+ 836 007a 0B       		.uleb128 0xb
+ 837 007b 26       		.uleb128 0x26
+ 838 007c 00       		.byte	0
+ 839 007d 00       		.byte	0
+ 840 007e 00       		.byte	0
+ 841 007f 0C       		.uleb128 0xc
+ 842 0080 01       		.uleb128 0x1
+ 843 0081 01       		.byte	0x1
+ 844 0082 49       		.uleb128 0x49
+ 845 0083 13       		.uleb128 0x13
+ 846 0084 01       		.uleb128 0x1
+ 847 0085 13       		.uleb128 0x13
+ 848 0086 00       		.byte	0
+ 849 0087 00       		.byte	0
+ 850 0088 0D       		.uleb128 0xd
+ 851 0089 21       		.uleb128 0x21
+ 852 008a 00       		.byte	0
+ 853 008b 49       		.uleb128 0x49
+ 854 008c 13       		.uleb128 0x13
+ 855 008d 2F       		.uleb128 0x2f
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 16
+
+
+ 856 008e 0B       		.uleb128 0xb
+ 857 008f 00       		.byte	0
+ 858 0090 00       		.byte	0
+ 859 0091 0E       		.uleb128 0xe
+ 860 0092 26       		.uleb128 0x26
+ 861 0093 00       		.byte	0
+ 862 0094 49       		.uleb128 0x49
+ 863 0095 13       		.uleb128 0x13
+ 864 0096 00       		.byte	0
+ 865 0097 00       		.byte	0
+ 866 0098 0F       		.uleb128 0xf
+ 867 0099 34       		.uleb128 0x34
+ 868 009a 00       		.byte	0
+ 869 009b 03       		.uleb128 0x3
+ 870 009c 0E       		.uleb128 0xe
+ 871 009d 3A       		.uleb128 0x3a
+ 872 009e 0B       		.uleb128 0xb
+ 873 009f 3B       		.uleb128 0x3b
+ 874 00a0 0B       		.uleb128 0xb
+ 875 00a1 49       		.uleb128 0x49
+ 876 00a2 13       		.uleb128 0x13
+ 877 00a3 3F       		.uleb128 0x3f
+ 878 00a4 19       		.uleb128 0x19
+ 879 00a5 02       		.uleb128 0x2
+ 880 00a6 18       		.uleb128 0x18
+ 881 00a7 00       		.byte	0
+ 882 00a8 00       		.byte	0
+ 883 00a9 00       		.byte	0
+ 884              		.section	.debug_aranges,"",%progbits
+ 885 0000 14000000 		.4byte	0x14
+ 886 0004 0200     		.2byte	0x2
+ 887 0006 00000000 		.4byte	.Ldebug_info0
+ 888 000a 04       		.byte	0x4
+ 889 000b 00       		.byte	0
+ 890 000c 0000     		.2byte	0
+ 891 000e 0000     		.2byte	0
+ 892 0010 00000000 		.4byte	0
+ 893 0014 00000000 		.4byte	0
+ 894              		.section	.debug_line,"",%progbits
+ 895              	.Ldebug_line0:
+ 896 0000 55000000 		.section	.debug_str,"MS",%progbits,1
+ 896      02004F00 
+ 896      00000201 
+ 896      FB0E0D00 
+ 896      01010101 
+ 897              	.LASF28:
+ 898 0000 70537461 		.ascii	"pStatusBlock\000"
+ 898      74757342 
+ 898      6C6F636B 
+ 898      00
+ 899              	.LASF26:
+ 900 000d 636F756E 		.ascii	"count\000"
+ 900      7400
+ 901              	.LASF3:
+ 902 0013 73686F72 		.ascii	"short unsigned int\000"
+ 902      7420756E 
+ 902      7369676E 
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 17
+
+
+ 902      65642069 
+ 902      6E7400
+ 903              	.LASF23:
+ 904 0026 73746174 		.ascii	"status\000"
+ 904      757300
+ 905              	.LASF38:
+ 906 002d 5553425F 		.ascii	"USB_DEVICE0_TABLE\000"
+ 906      44455649 
+ 906      4345305F 
+ 906      5441424C 
+ 906      4500
+ 907              	.LASF37:
+ 908 003f 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_TABLE\000"
+ 908      44455649 
+ 908      4345305F 
+ 908      434F4E46 
+ 908      49475552 
+ 909              	.LASF11:
+ 910 0060 666C6F61 		.ascii	"float\000"
+ 910      7400
+ 911              	.LASF17:
+ 912 0066 616C7453 		.ascii	"altSetting\000"
+ 912      65747469 
+ 912      6E6700
+ 913              	.LASF40:
+ 914 0071 5553425F 		.ascii	"USB_STRING_DESCRIPTORS\000"
+ 914      53545249 
+ 914      4E475F44 
+ 914      45534352 
+ 914      4950544F 
+ 915              	.LASF31:
+ 916 0088 545F5553 		.ascii	"T_USB_LUT\000"
+ 916      425F4C55 
+ 916      5400
+ 917              	.LASF1:
+ 918 0092 756E7369 		.ascii	"unsigned char\000"
+ 918      676E6564 
+ 918      20636861 
+ 918      7200
+ 919              	.LASF46:
+ 920 00a0 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 920      43313120 
+ 920      352E342E 
+ 920      31203230 
+ 920      31363036 
+ 921 00d3 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 921      20726576 
+ 921      6973696F 
+ 921      6E203233 
+ 921      37373135 
+ 922 0106 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 922      66756E63 
+ 922      74696F6E 
+ 922      2D736563 
+ 922      74696F6E 
+ 923              	.LASF19:
+ 924 012e 61747472 		.ascii	"attributes\000"
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 18
+
+
+ 924      69627574 
+ 924      657300
+ 925              	.LASF45:
+ 926 0139 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HI"
+ 926      44455649 
+ 926      4345305F 
+ 926      434F4E46 
+ 926      49475552 
+ 927 016c 445F5441 		.ascii	"D_TABLE\000"
+ 927      424C4500 
+ 928              	.LASF5:
+ 929 0174 6C6F6E67 		.ascii	"long unsigned int\000"
+ 929      20756E73 
+ 929      69676E65 
+ 929      6420696E 
+ 929      7400
+ 930              	.LASF18:
+ 931 0186 61646472 		.ascii	"addr\000"
+ 931      00
+ 932              	.LASF22:
+ 933 018b 545F5553 		.ascii	"T_USB_EP_SETTINGS_BLOCK\000"
+ 933      425F4550 
+ 933      5F534554 
+ 933      54494E47 
+ 933      535F424C 
+ 934              	.LASF43:
+ 935 01a3 5553425F 		.ascii	"USB_HIDREPORT_DESCRIPTOR1\000"
+ 935      48494452 
+ 935      45504F52 
+ 935      545F4445 
+ 935      53435249 
+ 936              	.LASF32:
+ 937 01bd 5553425F 		.ascii	"USB_DEVICE0_DESCR\000"
+ 937      44455649 
+ 937      4345305F 
+ 937      44455343 
+ 937      5200
+ 938              	.LASF33:
+ 939 01cf 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_DESCR\000"
+ 939      44455649 
+ 939      4345305F 
+ 939      434F4E46 
+ 939      49475552 
+ 940              	.LASF12:
+ 941 01f0 646F7562 		.ascii	"double\000"
+ 941      6C6500
+ 942              	.LASF20:
+ 943 01f7 62756666 		.ascii	"bufferSize\000"
+ 943      65725369 
+ 943      7A6500
+ 944              	.LASF35:
+ 945 0202 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_EP_SETTINGS_TABLE\000"
+ 945      44455649 
+ 945      4345305F 
+ 945      434F4E46 
+ 945      49475552 
+ 946              	.LASF10:
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 19
+
+
+ 947 022f 75696E74 		.ascii	"uint16\000"
+ 947      313600
+ 948              	.LASF44:
+ 949 0236 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HI"
+ 949      44455649 
+ 949      4345305F 
+ 949      434F4E46 
+ 949      49475552 
+ 950 0269 445F494E 		.ascii	"D_IN_RPT_TABLE\000"
+ 950      5F525054 
+ 950      5F544142 
+ 950      4C4500
+ 951              	.LASF8:
+ 952 0278 756E7369 		.ascii	"unsigned int\000"
+ 952      676E6564 
+ 952      20696E74 
+ 952      00
+ 953              	.LASF47:
+ 954 0285 47656E65 		.ascii	"Generated_Source\\PSoC5\\USB_descr.c\000"
+ 954      72617465 
+ 954      645F536F 
+ 954      75726365 
+ 954      5C50536F 
+ 955              	.LASF7:
+ 956 02a8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 956      206C6F6E 
+ 956      6720756E 
+ 956      7369676E 
+ 956      65642069 
+ 957              	.LASF42:
+ 958 02bf 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HI"
+ 958      44455649 
+ 958      4345305F 
+ 958      434F4E46 
+ 958      49475552 
+ 959 02f2 445F494E 		.ascii	"D_IN_BUF\000"
+ 959      5F425546 
+ 959      00
+ 960              	.LASF30:
+ 961 02fb 705F6C69 		.ascii	"p_list\000"
+ 961      737400
+ 962              	.LASF15:
+ 963 0302 73697A65 		.ascii	"sizetype\000"
+ 963      74797065 
+ 963      00
+ 964              	.LASF6:
+ 965 030b 6C6F6E67 		.ascii	"long long int\000"
+ 965      206C6F6E 
+ 965      6720696E 
+ 965      7400
+ 966              	.LASF13:
+ 967 0319 63686172 		.ascii	"char\000"
+ 967      00
+ 968              	.LASF24:
+ 969 031e 6C656E67 		.ascii	"length\000"
+ 969      746800
+ 970              	.LASF39:
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 20
+
+
+ 971 0325 5553425F 		.ascii	"USB_TABLE\000"
+ 971      5441424C 
+ 971      4500
+ 972              	.LASF2:
+ 973 032f 73686F72 		.ascii	"short int\000"
+ 973      7420696E 
+ 973      7400
+ 974              	.LASF9:
+ 975 0339 75696E74 		.ascii	"uint8\000"
+ 975      3800
+ 976              	.LASF27:
+ 977 033f 70446174 		.ascii	"pData\000"
+ 977      6100
+ 978              	.LASF16:
+ 979 0345 696E7465 		.ascii	"interface\000"
+ 979      72666163 
+ 979      6500
+ 980              	.LASF36:
+ 981 034f 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_INTERFACE_CLASS\000"
+ 981      44455649 
+ 981      4345305F 
+ 981      434F4E46 
+ 981      49475552 
+ 982              	.LASF4:
+ 983 037a 6C6F6E67 		.ascii	"long int\000"
+ 983      20696E74 
+ 983      00
+ 984              	.LASF14:
+ 985 0383 6C6F6E67 		.ascii	"long double\000"
+ 985      20646F75 
+ 985      626C6500 
+ 986              	.LASF48:
+ 987 038f 433A5C55 		.ascii	"C:\\Users\\Chantilly Robotics\\Documents\\2020_Cont"
+ 987      73657273 
+ 987      5C436861 
+ 987      6E74696C 
+ 987      6C792052 
+ 988 03be 726F6C5F 		.ascii	"rol_Scheme\\PSoC-2020\\2020-Control-Scheme.cydsn\000"
+ 988      53636865 
+ 988      6D655C50 
+ 988      536F432D 
+ 988      32303230 
+ 989              	.LASF0:
+ 990 03ed 7369676E 		.ascii	"signed char\000"
+ 990      65642063 
+ 990      68617200 
+ 991              	.LASF25:
+ 992 03f9 545F5553 		.ascii	"T_USB_XFER_STATUS_BLOCK\000"
+ 992      425F5846 
+ 992      45525F53 
+ 992      54415455 
+ 992      535F424C 
+ 993              	.LASF29:
+ 994 0411 545F5553 		.ascii	"T_USB_TD\000"
+ 994      425F5444 
+ 994      00
+ 995              	.LASF34:
+ARM GAS  C:\Users\CHANTI~1\AppData\Local\Temp\ccwHqOVj.s 			page 21
+
+
+ 996 041a 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_INTERFACE0_TABLE\000"
+ 996      44455649 
+ 996      4345305F 
+ 996      434F4E46 
+ 996      49475552 
+ 997              	.LASF41:
+ 998 0446 5553425F 		.ascii	"USB_DEVICE0_CONFIGURATION0_INTERFACE0_ALTERNATE0_HI"
+ 998      44455649 
+ 998      4345305F 
+ 998      434F4E46 
+ 998      49475552 
+ 999 0479 445F494E 		.ascii	"D_IN_RPT_SCB\000"
+ 999      5F525054 
+ 999      5F534342 
+ 999      00
+ 1000              	.LASF21:
+ 1001 0486 624D6973 		.ascii	"bMisc\000"
+ 1001      6300
+ 1002              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
